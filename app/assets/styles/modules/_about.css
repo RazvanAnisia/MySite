@@ -1,0 +1,26 @@
+.about{
+	width:80%;
+	height:20%;
+
+}
+.subtitle{
+	text-align: center;
+}
+.large{
+	font-size:3rem;
+	font-weight:400;
+	text-transform: capitalize;
+	
+	&--one{
+		/*font-family:"Kaushan Script", sans-serif;*/
+		font-family:"Lobster", sans-serif;
+		color:mainBlue;
+	}
+	&--two{
+		font-family: 'Bowlby One SC', cursive;
+	}
+	&--three{
+		font-family: 'Anton', sans-serif;
+	}
+
+}

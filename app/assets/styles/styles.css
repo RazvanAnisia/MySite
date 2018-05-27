@@ -1,6 +1,16 @@
-body{
-	background:url("../images/laptop2.jpg") no-repeat black;
-	background-size:cover;
-}
+@import "normalize.css";
+@import "base/_variables";
+@import "base/_global";
+@import "modules/_site-header";
+@import "modules/_about";
+@import "modules/_page-section";
+@import "modules/_main-heading";
+
+
+
+
+
+
+
 
 
