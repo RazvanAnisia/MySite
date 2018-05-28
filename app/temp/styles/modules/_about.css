@@ -5,6 +5,8 @@
 }
 .subtitle{
 	text-align: center;
+	margin-top:-1rem;
+	padding:0;
 }
 .large{
 	font-size:3rem;

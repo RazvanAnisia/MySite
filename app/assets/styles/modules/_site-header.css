@@ -1,26 +1,47 @@
 .site-header{
 	display:flex;
 	justify-content: space-around;
+	/*width:100%;
+	height:4rem;
+	background:linear-gradient($mainPurple,#05040A);*/
+	/*opacity:0.8;*/
 	&_logo{
-		width:20rem;
-		height:8rem;		
+		width:14rem;
+		height:5rem;
+	@mixin atSmall{
+		width:16rem;
+		height:6rem;
+		margin-top:1rem;
+	}
+
+
 	}
 	&_links{
 		/*text-decoration: none;*/
 		list-style-type: none;
-		margin:3rem 0.5rem;
-		color: white;
+		margin:1.5rem 0.5rem;
+		
 
 	}
 }
 .link{
-	color: white;
+	display:none;
+	
+	@mixin atMedium{
+		display:block;
+		color:white;
+	/*color: $mainBlue;*/
 	font-size:1.25rem;
-	text-decoration: none
-	/*&:hover{
+	text-decoration: none;
+	/*border:2px solid white;*/
+	padding:10px;
+	border-radius:10px;
+	&:hover{
 	color:#06FAB7;
-	}*/
-	/*&:active{
-		color:#BB0B3B;
-	}*/
+	}
+	&:active{
+		color:#e53961;
+	}
+	}
+
 }

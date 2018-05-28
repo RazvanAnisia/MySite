@@ -1,26 +1,72 @@
 .about{
 	width:80%;
 	height:20%;
+	&__bio{
+		font-size:1.1rem;
+		@mixin atSmall{
+			margin:6rem auto 5rem;
 
+	}
+		@mixin atLarge{
+			margin:10rem auto 5rem;
+		
+	}
+		
+	}
+	&__skills{
+		display: flex;
+		justify-content: space-around;
+		width:100%;
+		height:10rem;
+		background:linear-gradient(#1D0434,black);
+
+	}
 }
 .subtitle{
 	text-align: center;
+	margin-top:7rem;
+	@mixin atMedium{
+		margin-top:11rem;
+		
+	}
+	@mixin atLarge{
+		margin-top:-3rem;
+		
+	}
 }
 .large{
-	font-size:3rem;
+	font-size:1.8rem;
 	font-weight:400;
 	text-transform: capitalize;
-	
+	@mixin atSmall{
+		font-size:2.5rem;
+		
+	}
+	@mixin atMedium{
+		font-size:3rem;
+		
+	}
+	@mixin atLarge{
+		font-size:3.5rem;
+
+		
+	}
 	&--one{
 		/*font-family:"Kaushan Script", sans-serif;*/
 		font-family:"Lobster", sans-serif;
-		color:mainBlue;
+		color:$mainBlue;
 	}
 	&--two{
 		font-family: 'Bowlby One SC', cursive;
+
 	}
 	&--three{
 		font-family: 'Anton', sans-serif;
+		color:$mainPurple;
+	}
+	&--bold{
+		font-weight: 700;
+		font-family:"Kaushan Script";
 	}
 
 }

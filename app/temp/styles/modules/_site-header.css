@@ -14,9 +14,13 @@
 
 	}
 .link{
-	color: white;
+	color: #06FAB7;
+	/*color:$mainPurple;*/
 	font-size:1.25rem;
-	text-decoration: none
+	text-decoration: none;
+	border:2px solid #06FAB7;
+	padding:10px;
+	border-radius:10px;
 	/*&:hover{
 	color:#06FAB7;
 	}*/

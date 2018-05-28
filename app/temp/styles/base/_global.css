@@ -1,15 +1,25 @@
+/*$mainBlue:#06FAB7;
+$mainPurple:#bb0b3b; */
+
+
 body{
 	background:url("../../assets/images/open.jpg") no-repeat black;
-	background-size:cover;
+	/*background-size:cover;*/
+	background-size:100%;
+	/*background-attachment: fixed;*/
 	font-family:"Raleway", sans-serif;
   	font-weight:700;
  	color:white;
 }
+
+
 img{
-	max-width: 100%;
+	max-width:100%;
 	height:auto;
 }
-html{
+
+
+*{
 	box-sizing:border-box;
 }
 

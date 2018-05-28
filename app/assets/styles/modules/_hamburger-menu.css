@@ -1,0 +1,23 @@
+.hamburger-menu{
+	width:2.5rem;
+	height:2.4rem;
+	background:#392e66;
+	margin-top:0.3rem;
+	border-radius:3px;
+
+	
+	@mixin atSmall{
+		margin-top:1rem;
+	}	
+	@mixin atMedium{
+		display:none;
+	}
+	&_line{
+		background:$mainBlue;
+		height:3px;
+		width:1.8rem;
+		margin:7px 6px ;
+		border-radius:2px;
+	}
+	
+}
