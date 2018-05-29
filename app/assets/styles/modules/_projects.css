@@ -1,0 +1,32 @@
+.projects{
+	background: linear-gradient(black,#32185b,black);
+	&__flex{
+		display:flex;
+		flex-wrap: wrap;
+		margin:0 2rem;
+		@mixin atXLarge{
+			margin:0 8.5rem;
+		}
+		/*@mixin atMedium{
+			margin:0 5rem;
+		}*/
+		
+	}
+	&__title{
+		text-align: center
+	}
+	&__box{
+		width:13rem;
+		height:8rem;
+		background:$mainPurple;
+		margin :2rem 1rem 2rem;
+		@mixin atSmall{
+			width:20rem;
+			height:15rem;
+		}
+		/*@mixin atLarge{
+			width:22rem;
+			height:17rem;
+		}*/
+	}
+}

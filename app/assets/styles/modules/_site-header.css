@@ -6,8 +6,9 @@
 	background:linear-gradient($mainPurple,#05040A);*/
 	/*opacity:0.8;*/
 	&_logo{
-		width:14rem;
-		height:5rem;
+		width:13rem;
+		height:4.5rem;
+		margin-top:0.2rem;
 	@mixin atSmall{
 		width:16rem;
 		height:6rem;

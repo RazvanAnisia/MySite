@@ -1,12 +1,13 @@
 @import "normalize.css";
+@import "base/_mixins";
 @import "base/_global";
 @import "base/_variables";
-@import "base/_mixins";
 @import "modules/_site-header";
 @import "modules/_about";
 @import "modules/_page-section";
 @import "modules/_main-heading";
 @import "modules/_hamburger-menu";
+@import "modules/_projects";
 
 
 

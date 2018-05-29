@@ -1,8 +1,11 @@
 .about{
 	width:80%;
 	height:20%;
+
 	&__bio{
 		font-size:1.1rem;
+
+		
 		@mixin atSmall{
 			margin:6rem auto 5rem;
 
@@ -10,29 +13,92 @@
 		@mixin atLarge{
 			margin:10rem auto 5rem;
 		
-	}
+		}
+		&__picture{
+			max-width:250px;
+			max-height:250px;
+
+
+			@mixin atSmall{
+				max-width:320px;
+				max-height:320px;
+			
+			}
+			@mixin atMedium{
+				max-width:400px;
+				max-height:400px;
+			
+			}
+		
+
+		}
+		&__flex{
+			display:flex;
+			flex-wrap:wrap;
+			@mixin atSmall{
+				flex-wrap:nowrap;
+			
+			}
+		
+		}
 		
 	}
 	&__skills{
 		display: flex;
+		flex-wrap: wrap;
 		justify-content: space-around;
 		width:100%;
-		height:10rem;
-		background:linear-gradient(#1D0434,black);
+		height:8rem;
+		background:radial-gradient(#110f1c,black);
+		background: black;
+		margin-bottom:7rem;
+		margin-top:3rem;
+		
 
 	}
-}
+	&__image{
+		max-width:80px;
+		max-height:80px;
+		@mixin atSmall{
+			max-width:130px;
+			max-height:130px;
+	
+		}
+	}
+	&__font{
+		/*color:$mainPurple;*/
+		font-size:4rem;
+		color:#3a0f7a;
+		padding:5px 1rem;
+		text-shadow: 0px 0px 2px aqua;
+		&:hover{
+			color:$mainPurple;
+		}
+		@mixin atSmall{
+		font-size:6rem;
+	
+	}
+		@mixin atMedium{
+		font-size:8rem;
+	
+		}
+		
+	}
 .subtitle{
 	text-align: center;
 	margin-top:7rem;
+
 	@mixin atMedium{
 		margin-top:11rem;
+		padding-bottom:5rem;
 		
 	}
 	@mixin atLarge{
 		margin-top:-3rem;
+		padding-bottom:10rem;
 		
 	}
+}
 }
 .large{
 	font-size:1.8rem;
@@ -47,7 +113,7 @@
 		
 	}
 	@mixin atLarge{
-		font-size:3.5rem;
+		font-size:4rem;
 
 		
 	}
