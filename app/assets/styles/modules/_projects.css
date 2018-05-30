@@ -20,6 +20,7 @@
 		height:8rem;
 		background:$mainPurple;
 		margin :2rem 1rem 2rem;
+		border:2px solid white;
 		@mixin atSmall{
 			width:20rem;
 			height:15rem;

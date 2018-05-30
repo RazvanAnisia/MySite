@@ -4,12 +4,43 @@
 
 	&__bio{
 		font-size:1.1rem;
+		&__button{
+			width:12rem;
+			height:3rem;
+			color:$mainBlue;
+			background:black;
+			border:2px solid $mainBlue;
+			font-size:1.3rem;
+			border-radius: 5px;
+			margin-top:2rem;
+			margin-bottom:2rem;
+			cursor: pointer;
 
+			
+			&__link{
+				color:$mainBlue;
+				text-decoration:none;
+				&:hover{
+					background:$mainBlue;
+					color:black;
+					width:100%;
+				}
+			}
+			
+			@mixin atMedium{
+				width:15rem;
+				height:4rem;
+				font-size:2rem;
+				border:3px solid $mainBlue;
+				margin-top:0;
+				margin-left:20%;
+			}
+		}
 		
 		@mixin atSmall{
 			margin:6rem auto 5rem;
 
-	}
+		}
 		@mixin atLarge{
 			margin:10rem auto 5rem;
 		
@@ -59,6 +90,9 @@
 	&__image{
 		max-width:80px;
 		max-height:80px;
+		&:hover{
+			transform:scale(1.1);
+		}
 		@mixin atSmall{
 			max-width:130px;
 			max-height:130px;
@@ -113,7 +147,7 @@
 		
 	}
 	@mixin atLarge{
-		font-size:4rem;
+		font-size:3.8rem;
 
 		
 	}
@@ -124,11 +158,18 @@
 	}
 	&--two{
 		font-family: 'Bowlby One SC', cursive;
+		&--blue{
+			color:$mainBlue;
+		}
 
 	}
 	&--three{
 		font-family: 'Anton', sans-serif;
 		color:$mainPurple;
+		&--small{
+			font-size:2.5rem;
+			
+		}
 	}
 	&--bold{
 		font-weight: 700;

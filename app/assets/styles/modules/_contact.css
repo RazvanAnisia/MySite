@@ -1,0 +1,24 @@
+.contact{
+	text-align:center;
+	font-size:1.3rem;
+	margin-top:5rem;
+	&__links{
+		/*display:flex;*/
+		/*flex-direction: column;*/
+		margin:0 auto;
+
+	}
+	&__button{
+		font-size:1.3rem;
+		text-decoration:none;
+		color:#6e24d6;
+	
+	}
+	&__icon{
+		font-size:2rem;
+		padding:2px;
+		&:hover{
+			color:$mainBlue;
+		}
+	}
+}
