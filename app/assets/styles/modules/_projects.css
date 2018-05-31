@@ -3,14 +3,8 @@
 	&__flex{
 		display:flex;
 		flex-wrap: wrap;
-		margin:0 2rem;
-		@mixin atXLarge{
-			margin:0 8.5rem;
-		}
-		/*@mixin atMedium{
-			margin:0 5rem;
-		}*/
-		
+		margin:0 10%;
+				
 	}
 	&__title{
 		text-align: center;
@@ -18,19 +12,21 @@
 		padding-top:4rem;
 	}
 	&__box{
-		width:13rem;
-		height:8rem;
+		width:100%;
+		height:20%;
 		background:#7f37e5;
-		margin :2rem 1rem 2rem;
+		margin :2rem 5% 2rem;
 		border:2px solid white;
-		@mixin atSmall{
-			width:20rem;
-			height:15rem;
+		@mixin atMedium{
+			width:40%;
+			height: 20%;
+			
 		}
-		/*@mixin atLarge{
-			width:22rem;
-			height:17rem;
-		}*/
+		@mixin atLarge{
+			margin :2rem 3%;
+			width:27.33%;
+			
+		}
 		&:hover{
 			background:$mainBlue;
 			
@@ -38,11 +34,10 @@
 		}
 		&__weblink{
 			color:black;
-			display:inline-block;
+			display:block;
 			margin: 25% 33%;
-			font-size:1rem;
-			border:2px solid white;
-			padding:0 0.5rem;
+			font-size:1.1rem;
+			text-align: center;
 			background-color:white;
 			border-radius:5px;
 			text-decoration: none;
@@ -53,11 +48,7 @@
 				transform:scale(1.05);
 			}
 			@mixin atSmall{
-				padding:0 0.5rem;
-				font-size:1.5rem;
-			}
-			@mixin atLarge{
-				padding:1rem 1.5rem;
+				
 				font-size:1.5rem;
 			}
 		}	
