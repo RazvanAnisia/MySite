@@ -436,7 +436,6 @@ img{
 
 .about{
 	width:80%;
-	height:20%;
 }
 
 .about__bio{
@@ -444,39 +443,37 @@ img{
 		
 	}
 
-.about__bio__button{
-			width:12rem;
-			height:3rem;
-			color:#06FAB7;
-			background:black;
-			border:2px solid #06FAB7;
+.about__bio__link{
+			color:white;
+			background:linear-gradient(#06FAB7,#bb0b3b);
+			/*background:$mainPurple;*/
 			font-size:1.3rem;
-			border-radius: 5px;
-			margin-top:2rem;
-			margin-bottom:2rem;
-			cursor: pointer;
+			/*margin-top:3rem;
+			margin-bottom:2rem;*/
+			margin:2rem 2rem 3rem;
+			text-decoration: none;
+			padding:1rem;
+			border-radius:5px;
+			display:inline-block;
+			font-family:Lobster;
+			font-weight:300;
 		}
 
-.about__bio__button__link{
-				color:#06FAB7;
-				text-decoration:none;
+.about__bio__link:hover{
+				background:#7f37e5;
+				color:black;
+				-webkit-transform:scale(1.05);
+				        transform:scale(1.05);
 			}
 
-.about__bio__button__link:hover{
-					background:#06FAB7;
-					color:black;
-					width:100%;
-				}
+@media (min-width: 530px) {
 
-@media (min-width: 800px) {
-
-.about__bio__button{
-				width:15rem;
-				height:4rem;
+.about__bio__link{
 				font-size:2rem;
-				border:3px solid #06FAB7;
 				margin-top:0;
-				margin-left:20%
+				margin-left:10%;
+				margin-bottom:50px;
+				padding:1rem 2rem
 		}
   }
 
@@ -681,7 +678,7 @@ img{
 	}
 
 .page-section{
-	margin:2.5rem auto;
+	margin:2.2rem auto;
 }
 
 .main-heading{
@@ -697,6 +694,7 @@ img{
 	background:#392e66;
 	margin-top:0.3rem;
 	border-radius:3px;
+	cursor:pointer;
 	
 }
 
@@ -726,6 +724,7 @@ img{
 
 .projects{
 	background: linear-gradient(black,#32185b,black);
+	
 }
 
 .projects__flex{
@@ -747,27 +746,74 @@ img{
   }
 
 .projects__title{
-		text-align: center
+		text-align: center;
+		display:block;
+		padding-top:4rem;
 	}
 
 .projects__box{
 		width:13rem;
 		height:8rem;
-		background:#bb0b3b;
+		background:#7f37e5;
 		margin :2rem 1rem 2rem;
-		border:2px solid white;
-		/*@mixin atLarge{
-			width:22rem;
-			height:17rem;
-		}*/
+		border:2px solid white;	
+
 	}
 
 @media (min-width: 530px) {
 
 .projects__box{
 			width:20rem;
-			height:15rem
+			height:15rem	
+
 	}
+  }
+
+/*@mixin atLarge{
+			width:22rem;
+			height:17rem;
+		}*/
+
+.projects__box:hover{
+			background:#06FAB7;
+			
+			
+		}
+
+.projects__box__weblink{
+			color:black;
+			display:inline-block;
+			margin: 25% 33%;
+			font-size:1rem;
+			border:2px solid white;
+			padding:0 0.5rem;
+			background-color:white;
+			border-radius:5px;
+			text-decoration: none;
+			font-family:Helvetica;
+			z-index:1;
+			box-shadow: 1px 1px 2px grey;
+		}
+
+.projects__box__weblink:hover{
+				-webkit-transform:scale(1.05);
+				        transform:scale(1.05);
+			}
+
+@media (min-width: 530px) {
+
+.projects__box__weblink{
+				padding:0 0.5rem;
+				font-size:1.5rem
+		}
+  }
+
+@media (min-width: 1010px) {
+
+.projects__box__weblink{
+				padding:1rem 1.5rem;
+				font-size:1.5rem
+		}
   }
 
 .contact{
@@ -801,7 +847,7 @@ img{
 
 footer{
 	width:100%;
-	height:5rem;
+	height:6rem;
 	background:#25094B;
 	text-align: center;
 	padding-top:1rem;

@@ -13,12 +13,14 @@
 		
 	}
 	&__title{
-		text-align: center
+		text-align: center;
+		display:block;
+		padding-top:4rem;
 	}
 	&__box{
 		width:13rem;
 		height:8rem;
-		background:$mainPurple;
+		background:#7f37e5;
 		margin :2rem 1rem 2rem;
 		border:2px solid white;
 		@mixin atSmall{
@@ -29,5 +31,37 @@
 			width:22rem;
 			height:17rem;
 		}*/
+		&:hover{
+			background:$mainBlue;
+			
+			
+		}
+		&__weblink{
+			color:black;
+			display:inline-block;
+			margin: 25% 33%;
+			font-size:1rem;
+			border:2px solid white;
+			padding:0 0.5rem;
+			background-color:white;
+			border-radius:5px;
+			text-decoration: none;
+			font-family:Helvetica;
+			z-index:1;
+			box-shadow: 1px 1px 2px grey;
+			&:hover{
+				transform:scale(1.05);
+			}
+			@mixin atSmall{
+				padding:0 0.5rem;
+				font-size:1.5rem;
+			}
+			@mixin atLarge{
+				padding:1rem 1.5rem;
+				font-size:1.5rem;
+			}
+		}	
+
 	}
+	
 }

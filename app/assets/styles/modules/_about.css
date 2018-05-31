@@ -1,39 +1,35 @@
 .about{
 	width:80%;
-	height:20%;
-
+	
 	&__bio{
 		font-size:1.1rem;
-		&__button{
-			width:12rem;
-			height:3rem;
-			color:$mainBlue;
-			background:black;
-			border:2px solid $mainBlue;
+		&__link{
+			color:white;
+			background:linear-gradient($mainBlue,$mainPurple);
+			/*background:$mainPurple;*/
 			font-size:1.3rem;
-			border-radius: 5px;
-			margin-top:2rem;
-			margin-bottom:2rem;
-			cursor: pointer;
-
-			
-			&__link{
-				color:$mainBlue;
-				text-decoration:none;
-				&:hover{
-					background:$mainBlue;
-					color:black;
-					width:100%;
-				}
+			/*margin-top:3rem;
+			margin-bottom:2rem;*/
+			margin:2rem 2rem 3rem;
+			text-decoration: none;
+			padding:1rem;
+			border-radius:5px;
+			display:inline-block;
+			font-family:Lobster;
+			font-weight:300;
+			&:hover{
+				background:#7f37e5;
+				color:black;
+				transform:scale(1.05);
 			}
-			
-			@mixin atMedium{
-				width:15rem;
-				height:4rem;
+			@mixin atSmall{
 				font-size:2rem;
-				border:3px solid $mainBlue;
 				margin-top:0;
-				margin-left:20%;
+				margin-left:10%;
+				margin-bottom:50px;
+				padding:1rem 2rem;
+				
+
 			}
 		}
 		
