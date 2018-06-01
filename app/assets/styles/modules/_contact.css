@@ -1,7 +1,11 @@
 .contact{
 	text-align:center;
-	font-size:1.3rem;
+	font-size:1rem;
 	margin-top:7rem;
+	font-weight:100;
+	@mixin atMedium{
+		font-size:1.3rem;
+		}
 	&__links{
 		/*display:flex;*/
 		/*flex-direction: column;*/

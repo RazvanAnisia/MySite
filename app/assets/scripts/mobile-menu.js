@@ -7,13 +7,13 @@ hamburger.addEventListener("click", function(){
 
 //fade in scroll
 
-window.onscroll = function() {fadeFunction()};
+// window.onscroll = function() {fadeFunction()};
 
-function fadeFunction() {
-    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-        document.getElementById("this").className = "fade-in";
-    } else {
-        document.getElementById("this").className = "";
-    }
-}
+// function fadeFunction() {
+//     if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+//         document.getElementById("this").className = "fade-in";
+//     } else {
+//         document.getElementById("this").className = "";
+//     }
+// }
 
