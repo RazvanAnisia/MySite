@@ -379,6 +379,7 @@ img{
 /*opacity:0.8;*/
 
 .site-header_logo{
+		position:fixed;
 		width:13rem;
 		height:4.5rem;
 		margin-top:0.2rem;
@@ -988,6 +989,16 @@ footer{
 
 .footer__link:hover{
 		color:#06FAB7;
+	}
+
+.reveal-item{
+	opacity:0;
+	transition:opacity 2s ease-out;
+
+}
+
+.reveal-item--is-visible{
+	opacity:1;
 	}
 
 
