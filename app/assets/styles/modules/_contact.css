@@ -1,7 +1,7 @@
 .contact{
 	text-align:center;
 	font-size:1rem;
-	margin-top:7rem;
+	margin:10rem 1.8rem 5rem;
 	font-weight:100;
 	@mixin atMedium{
 		font-size:1.3rem;
@@ -12,8 +12,13 @@
 		margin:0 auto;
 
 	}
+	&__important{
+		font-size:2rem;
+		font-family: 'Bowlby One SC', cursive;
+		font-weight:200;
+	}
 	&__button{
-		font-size:1.3rem;
+		font-size:1.2rem;
 		text-decoration:none;
 		color:#6e24d6;
 	

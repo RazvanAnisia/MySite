@@ -40,27 +40,35 @@
 	transform:translateY(55%);
 	position:absolute;
 	right:0.2rem;
-	top:-1.2rem;
-	width:40%;
-	height:7.2rem;
-	background:linear-gradient(#14022A,#2e2638);
+	top:-0.7rem;
+	width:35%;
+	height:6rem;
+	/*background:linear-gradient(#14022A,#2e2638);*/
 	padding-top:3px;
 	border-radius:10px;
-	font-size:1.3rem;
-	font-weight:30;
+	font-size:1rem;
+	/*font-family: 'Kaushan Script', cursive;*/
+	/*font-weight:30;*/
 	text-align:center;
 	transition:all 0.3s ease-in;
 	animation: fadeMobile 0.2s ease-in-out;
 	a {text-decoration: none;
-	   color:#c0a7e5;
+	   /*color:#c0a7e5;*/
+	   color:black;
 	   padding-top:12px;
 	   padding-bottom:12px;
-		background:linear-gradient(#14022A,#2e2638);
+		/*background:linear-gradient(#14022A,#2e2638);*/
+		background:linear-gradient(#02A1FC,#C381EE);
 		border-radius:2px;
 	   &:hover{
 			color:$mainPurple;
 	   	}
 	}
+	@mixin atSmall{
+		font-size:1.3rem;
+		padding-top:1rem;
+		width:45%;
+		}
 
 	@mixin atMedium{
 		display:none;

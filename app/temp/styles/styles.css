@@ -425,14 +425,15 @@ img{
 	        transform:translateY(55%);
 	position:absolute;
 	right:0.2rem;
-	top:-1.2rem;
-	width:40%;
-	height:7.2rem;
-	background:linear-gradient(#14022A,#2e2638);
+	top:-0.7rem;
+	width:35%;
+	height:6rem;
+	/*background:linear-gradient(#14022A,#2e2638);*/
 	padding-top:3px;
 	border-radius:10px;
-	font-size:1.3rem;
-	font-weight:30;
+	font-size:1rem;
+	/*font-family: 'Kaushan Script', cursive;*/
+	/*font-weight:30;*/
 	text-align:center;
 	transition:all 0.3s ease-in;
 	-webkit-animation: fadeMobile 0.2s ease-in-out;
@@ -441,16 +442,28 @@ img{
 }
 
 .show a {text-decoration: none;
-	   color:#c0a7e5;
+	   /*color:#c0a7e5;*/
+	   color:black;
 	   padding-top:12px;
 	   padding-bottom:12px;
-		background:linear-gradient(#14022A,#2e2638);
+		/*background:linear-gradient(#14022A,#2e2638);*/
+		background:linear-gradient(#02A1FC,#C381EE);
 		border-radius:2px;
 	}
 
 .show a:hover{
 			color:#bb0b3b;
 	   	}
+
+@media (min-width: 530px) {
+
+.show{
+		font-size:1.3rem;
+		padding-top:1rem;
+		width:45%
+
+}
+  }
 
 @media (min-width: 800px) {
 
@@ -541,7 +554,7 @@ img{
 			margin-bottom:2rem;*/
 			margin:2rem 2rem 3rem;
 			text-decoration: none;
-			padding:1rem;
+			padding:1rem 1.5rem;
 			border-radius:5px;
 			display:inline-block;
 			font-family:Lobster;
@@ -562,7 +575,7 @@ img{
 				margin-top:0;
 				margin-left:10%;
 				margin-bottom:50px;
-				padding:1rem 2rem
+				padding:1rem 2.5rem
 		}
   }
 
@@ -937,7 +950,7 @@ img{
 .contact{
 	text-align:center;
 	font-size:1rem;
-	margin-top:7rem;
+	margin:10rem 1.8rem 5rem;
 	font-weight:100;
 }
 
@@ -955,8 +968,14 @@ img{
 
 	}
 
+.contact__important{
+		font-size:2rem;
+		font-family: 'Bowlby One SC', cursive;
+		font-weight:200;
+	}
+
 .contact__button{
-		font-size:1.3rem;
+		font-size:1.2rem;
 		text-decoration:none;
 		color:#6e24d6;
 	
@@ -973,7 +992,7 @@ img{
 
 footer{
 	width:100%;
-	height:6rem;
+	height:6.8rem;
 	background:#25094B;
 	text-align: center;
 	padding-top:1rem;

@@ -7,6 +7,7 @@ import smoothScroll from 'jquery-smooth-scroll';
 class HeaderSmoothScroll{
 	constructor(){
 		this.headerLinks = $(".site-header a");
+		this.footerLinks = $("footer a")
 		this.addSmoothScrolling();
 		// this.removeHeaders();
 	}
@@ -16,6 +17,7 @@ class HeaderSmoothScroll{
 	addSmoothScrolling(){
 		console.log(this.headerLinks);
     this.headerLinks.smoothScroll();
+    this.footerLinks.smoothScroll();
     }
    
   	}
