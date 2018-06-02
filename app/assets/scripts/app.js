@@ -1,6 +1,7 @@
 // var mobileMenu = require("./modules/mobile-menu")
-import Mobile from "./modules/mobile-menu"
-import RevealOnScroll from "./modules/RevealOnScroll"
+import Mobile from "./modules/mobile-menu";
+import RevealOnScroll from "./modules/RevealOnScroll";
+import HeaderSmoothScroll from "./modules/HeaderSmoothScroll";
 // var revealOnScroll = new RevealOnScroll();
 import $ from "jquery";
 
@@ -8,7 +9,7 @@ import $ from "jquery";
 new RevealOnScroll($(".about__bio"),"70%");
 new RevealOnScroll($(".about__skills"),"60%");
 new RevealOnScroll($(".projects"),"60%");
-
+var headerSmoothScroll = new HeaderSmoothScroll();
 
 //fade in scroll
 
