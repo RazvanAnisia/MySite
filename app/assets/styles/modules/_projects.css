@@ -1,5 +1,5 @@
 .projects{
-	background: linear-gradient(black,#32185b,black);
+	background: linear-gradient(black,$secondPurple,black);
 	&__flex{
 		display:flex;
 		flex-wrap: wrap;

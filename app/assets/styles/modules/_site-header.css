@@ -10,14 +10,14 @@
 	/*opacity:0.8;*/
 	&_logo{
 		position:fixed;
-		width:13rem;
-		height:4.5rem;
+		width:12rem;
+		height:4rem;
 		margin-top:0.2rem;
 		position:sticky;
 		top:20px;
 	@mixin atSmall{
-		width:16rem;
-		height:6rem;
+		width:15rem;
+		height:5rem;
 		margin-top:1rem;
 	}
 
@@ -32,15 +32,15 @@
 	}
 	&__mobile{
 		display: none;
-		transform:translateY(-100%);
+		/*transform:translateY(-100%);*/
 	}
 }
 .show{
 	display:inline;
-	transform:translateY(55%);
+	/*transform:translate(55%);*/
 	position:absolute;
 	right:0.2rem;
-	top:-0.7rem;
+	top:2.6rem;
 	width:35%;
 	height:6rem;
 	/*background:linear-gradient(#14022A,#2e2638);*/
@@ -50,8 +50,8 @@
 	/*font-family: 'Kaushan Script', cursive;*/
 	/*font-weight:30;*/
 	text-align:center;
-	transition:all 0.1s ease-in;
-	animation: fadeMobile 0.2s ease-in-out;
+	/*transition:all 2s ease-in;*/
+	/*animation: fadeMobile 0.2s ease-in-out;*/
 	a {text-decoration: none;
 	   /*color:#c0a7e5;*/
 	   color:black;
@@ -77,13 +77,13 @@
 }
 @keyframes fadeMobile {
 		0%{opacity:0;
-			transform:translateX(200%)
+			transform:translate(100%,0)
 			}
 		25%{opacity:0.3;}
 		50%{opacity:0.5;}
 		75%{opacity:0.8;}
 		100%{opacity:1;
-			/*transform:translateY(-0.1rem)*/;
+			/*transform:translateY(-0.1rem)*/
 		}
 	}
 
@@ -105,7 +105,7 @@
 	padding:10px;
 	border-radius:10px;
 	&:hover{
-	color:#06FAB7;
+	color:$mainBlue;
 	}
 	&:active{
 		color:#e53961;

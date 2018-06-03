@@ -44,6 +44,7 @@
 		&__picture{
 			max-width:250px;
 			max-height:250px;
+			/*filter:contrast(80%);*/
 
 
 			@mixin atSmall{
@@ -52,8 +53,8 @@
 			
 			}
 			@mixin atMedium{
-				max-width:400px;
-				max-height:400px;
+				max-width:500px;
+				max-height:500px;
 			
 			}
 		
@@ -87,7 +88,9 @@
 	&__image{
 		max-width:80px;
 		max-height:80px;
+		filter:contrast(80%);
 		&:hover{
+			filter:contrast(100%);
 			transform:scale(1.1);
 		}
 		@mixin atSmall{
@@ -190,7 +193,8 @@
 
 @keyframes fade {
 		0%{opacity:0;
-			transform:translateY(3rem);}
+			transform:translateY(3rem);
+					}
 		25%{opacity:0.3;}
 		50%{opacity:0.5;}
 		75%{opacity:0.8;}
