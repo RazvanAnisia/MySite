@@ -1,6 +1,6 @@
 # Personal Website
 
-This is the first ever fully-deployed website I put live in my web-development learning journey.
+This is the first ever fully-deployed website I put live in my web-development journey. <br>
 Learned a ton while building it! 😄
 
 You can find the website live at: <a href='https://www.razvan-anisia.com'>www.razvan-anisia.com</a>
@@ -14,6 +14,6 @@ It is a static website, built just with JS and CSS, which makes it very lightwei
 It's sole purpose is to show some of the projects I was working on at the time it was built, and present some contact information. 
 
 ### What does the future hold?
-There are plans for for v.2 , possibly using Gatsby.js!(**React.js, GraphQL, Netlify CMS**)
+There are plans for for v.2 , possibly using Gatsby.js!(**React.js, GraphQL, Netlify CMS**) <br>
 Possibly creating a blog section as well, and adding some new projects to the portfolio.
 Stay tuned folks! 👀
