@@ -1,4 +1,5 @@
 # Personal Website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ec1546ac-d083-41a9-8107-780c3b98fbd7/deploy-status)](https://app.netlify.com/sites/focused-dijkstra-0cf8d1/deploys)
 
 This is the first ever fully-deployed website I put live in my web-development journey. <br>
 Learned a ton while building it! 😄
