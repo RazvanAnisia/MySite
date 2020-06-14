@@ -4,8 +4,6 @@
 This is the first ever fully-deployed website I put live in my web-development journey. <br>
 Learned a ton while building it! 😄
 
-You can find the website live at: <a href='https://www.razvan-anisia.com'>www.razvan-anisia.com</a>
-
 ### About the project
 
 The build tools used are Gulp.js and PostCSS, it also uses a bit of jQuery as it was very handy when I started studying DOM manipulation.
